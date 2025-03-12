@@ -7,3 +7,11 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // metodo con foreach
 names.forEach((element) => {console.log(element)});
 
+console.log(`
+---
+    `)
+
+// bonus
+for(let i = 0; i<names.length; i++){
+    console.log(names[i])
+}
