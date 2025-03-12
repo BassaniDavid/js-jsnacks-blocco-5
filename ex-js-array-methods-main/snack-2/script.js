@@ -11,3 +11,13 @@ const people = [
 people.forEach(element => {
   console.log(element.name)
 });
+
+
+console.log(`
+  ---
+`)
+
+// bonus
+for(let i = 0; i < people.length; i++){
+  console.log(people[i].name)
+}
