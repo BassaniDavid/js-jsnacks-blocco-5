@@ -25,3 +25,19 @@ const marcoObj = students.find((student) => student.name === 'Marco Lanci');
 let marcoClass = marcoObj.class;
 
 console.log(marcoClass);
+
+console.log(`
+  ---
+  
+`);
+
+// bonus
+let marcoClassBonus;
+
+for(let i = 0; i < students.length; i++){
+  if(students[i].name === 'Marco Lanci'){
+    marcoClassBonus = students[i].class
+  }
+}
+
+console.log(marcoClassBonus);
