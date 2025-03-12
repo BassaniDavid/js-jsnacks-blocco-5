@@ -18,3 +18,22 @@ console.log(plus15Array);
 
 const minus15Array =zucchine.filter((zucchina) => zucchina.length < 15);
 console.log(minus15Array);
+
+console.log(`
+  ---
+`);
+
+// bonus
+const plus15ArrayBonus = [];
+const minus15ArrayBonus = [];
+
+for(let i = 0; i < zucchine.length; i++){
+  if(zucchine[i].length > 15){
+    plus15ArrayBonus.push(zucchine[i])
+  }else{
+    minus15ArrayBonus.push(zucchine[i])
+  };
+};
+
+console.log(plus15ArrayBonus);
+console.log(minus15ArrayBonus);
