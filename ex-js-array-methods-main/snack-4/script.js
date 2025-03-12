@@ -10,4 +10,17 @@ const posts = [
 
 const nameArray = posts.map((element) => element.author);
 
-console.log(nameArray)
+console.log(nameArray);
+
+console.log(`
+  ---
+`);
+
+// bonus
+const thirdArray = [];
+
+for(let i = 0; i < posts.length; i++){
+  thirdArray.push(posts[i].author)
+};
+
+console.log(thirdArray)
