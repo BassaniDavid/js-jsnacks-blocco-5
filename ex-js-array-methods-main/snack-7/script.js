@@ -24,3 +24,19 @@ const students = [
 
 const idSecond = students.find((student) => student.id === 2);
 console.log(idSecond);
+
+console.log(`
+  ---
+`);
+
+// bonus
+let objBonus = {};
+
+for(let i = 0; i < students.length; i++){
+  if(students[i].id === 2){
+    objBonus = students[i];
+    break;
+  }
+};
+
+console.log(objBonus);
